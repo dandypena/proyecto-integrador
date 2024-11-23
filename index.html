@@ -5,48 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Integrador</title>
     <link rel="stylesheet" href="style/footer.css">
-    <link rel="stylesheet" href="style/cuerpo.css">
-    
+    <link 
+     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" 
+     rel="stylesheet"
+    />
 </head>
  <body>
     <header>
-        <div class="hed">
-            <img src="imag/logo.jpg" alt="creada">
+        <div class="container-h">
+            <div class="container h">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">+57 3025662322</span>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <i class="fa-solid fa-wheat-awn"></i>
+                    <h1 class="logo"><a href="/">Mesa b rico</a></h1>
+                </div>
+                <div class="container-user">
+                    <div class="content-shopping cart"></div>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                      <span class="text">Carrito</span>
+                      <span class="number">(0)</span>
+                </div>
+            </div>
         </div>
-
+        <div class="container-navbar">
+           <nav class="navbar container">
+            <div class="boton">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <nav class="menus">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="domicilio.html">Domicilio</a></li>
+                    <li><a href="#">Productos de temporada</a></li>
+                    
+                    <li><a href="quejasyreclamos.html">Quejas y Sugerencias</a></li>
+                </ul>
+            </nav>
+                <form class="search-form" action="">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+           </nav>
+        </div>
     </header>
-
-    <div class="Navegador">
-        <ul>
-            <a href="pedidos.html"><li>pedidos</li></a>
-            <a href="productos.html"><li>productos</li></a>
-            <a href="contactos.html"><li>Contactanos</li></a>
-        
-        </ul>
-    </div>
-    <section>
+    <section class="banner">
+        <div class="content-banner">
+            <p>Un Pan A Tu Mesa</p>
+            <h2>100% Artesanal<br>Y Muy Delicioso</h2>
+            <a href="#">Comprar ahora</a>
         </div>
-        <div class="imagen"><img src="imag/mural.jpg" alt=""></div>
-        <div class="formulario"></div>
+    </section>
+    <section class="top-products">
+        <h1 class="heading-1">Mejores Productos</h1>
+        <div class="container-products">
+            <!-- P1 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="imag/🍰 Pastelería y Repostería - Clases GRATIS Online 🎂 _ TE REGALAMOS ESTÁS RECETAS DE GALLETAS RELLENAS A CAMBIO DE UN SIMPLE GRACIAS _ Facebook.jpg" alt="Cookies de nutella"> 
+                    <div class="button-group">
+                       <span>
+                        <i class="fa-solid fa-eye"></i>
+
+                       </span> 
+                       <span>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                       </span> 
+                       <span>
+                        <i class="fa-solid fa-code-compare"></i>
+                       </span> 
+                    </div>
+                </div>
+                
+                <div class="content-card-product">
+                   <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                   </div> 
+                   <h3>Cookies New York Nutella</h3>
+                   <span class="add-cart">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                   </span>
+                   <p class="price">$7.000</p>
+                </div>
+            </div>
+            <!-- P2 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="imag/Galletas rellenas de manjar blanco.jpg" alt="Cookies de nutella"> 
+                    <div class="button-group">
+                       <span>
+                        <i class="fa-solid fa-eye"></i>
+
+                       </span> 
+                       <span>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                       </span> 
+                       <span>
+                        <i class="fa-solid fa-code-compare"></i>
+                       </span> 
+                    </div>
+                </div>
+                
+                <div class="content-card-product">
+                   <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                   </div> 
+                   <h3>Cookies New York de chocolate blanco</h3>
+                   <span class="add-cart">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                   </span>
+                   <p class="price">$7.000</p>
+                </div>
+            </div>
     
-        </section>
+            <!-- P4 -->
+            <div class="card-product">
+                <div class="container-img">
+                    <img src="imag/Repostería, pastelería, postres recetas y tutoriales COLOMBIA _ Galletas Red Velvet rellenas de queso crema 💖🍪 _ Facebook.jpg" alt="Cookies de nutella"> 
+                    <div class="button-group">
+                       <span>
+                        <i class="fa-solid fa-eye"></i>
 
-    <div class="informacion">
-
-    </div> 
+                       </span> 
+                       <span>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                       </span> 
+                       <span>
+                        <i class="fa-solid fa-code-compare"></i>
+                       </span> 
+                    </div>
+                </div>
+               
+                <div class="content-card-product">
+                   <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                   </div> 
+                   <h3>Cookies New York Red Velvet</h3>
+                   <span class="add-cart">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                   </span>
+                   <p class="price">$7.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
-    <div class="novedades"></div>
-
-    <div class="deldia">
-        <div class="pan"></div>
-        <div class="reposteria"></div>
-        <div class="menudeldia"></div>
-    </div>
-    
 
     
-
-    <footer class="footer">
+    <footer>
+        <div class="footer">
         <ul class="sosial-icon">
             <li class="icon-elem">
                 <a href="https://www.instagram.com/pasteleriamesabrico/" class="icon">
@@ -66,7 +194,7 @@
         </ul>
         <ul class="menu">
             <li class="menu-elem">
-                <a href="" class="menu-icon">Inicio</a>
+                <a href="index.html" class="menu-icon">Inicio</a>
             </li>
             <li class="menu-elem">
                 <a href="" class="menu-icon">Equipo</a>
@@ -76,7 +204,8 @@
             </li>    
         </ul>
         <p class="text">@Año | Todos los derechos reservados</p>
-    </footer>
+        </div>
+        </footer>
     <script
      type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
@@ -85,5 +214,9 @@
     nomodule 
     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
     </script> 
+    <script src="https://kit.fontawesome.com/5226f85789.js" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="boton.js"></script>
 </body>
 </html>
